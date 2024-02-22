@@ -8,7 +8,7 @@ public class Interest {
             System.out.printf("%d\n", counter);
             counter++;
 
-        }
+        }//END do
         while(counter <= 10);
 
         System.out.println("WHILE///////////////////////");
@@ -16,12 +16,12 @@ public class Interest {
         while(counter <=10){
             System.out.printf("%d \n", counter);
             counter ++;
-        }
+        }//END while
 
         System.out.println("For///////////////////////////");
         for (counter = 1; counter <= 10; counter++){
             System.out.printf("%d \n", counter);
-        }
+        }//END: main
 }//END: Interest
 
 
