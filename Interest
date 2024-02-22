@@ -1,0 +1,9 @@
+//This is sample code to use Math.pow().
+public class Interest {
+    public static void main(String[] args) {
+
+        //Init's
+        double principal = 1_000.0;
+        double rate = 0.05;
+    }//main
+}//Interest
