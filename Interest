@@ -5,5 +5,23 @@ public class Interest {
         //Init's
         double principal = 1_000.0;
         double rate = 0.05;
-    }//main
+        //Calculate amount on deposit for each ten years
+        for(int year =1; year <=10; ++year){
+            //How you do yearly compound intrest
+            //++ year means that it will add on or increment
+            //Calculate new amount on deposit
+            //                                  1.05^1 or 2...10
+            double amount = principal * Math.pow(1.0 + rate, year);
+            // * is the symbol for multiplication
+            //Math.pow --> to the power of
+
+            //Print the yearly amount
+            System.out.printf("%4d%,20.2f%n", year, amount);
+
+
+        }//main
 }//Interest
+
+
+
+        }
