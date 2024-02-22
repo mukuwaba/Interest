@@ -1,0 +1,29 @@
+//This is sample code to use Math.pow().
+public class Interest {
+    public static void main(String[] args) {
+
+        //This is our loop counter
+        int counter = 1;
+        do {
+            System.out.printf("%d\n", counter);
+            counter++;
+
+        }
+        while(counter <= 10);
+
+        System.out.println("WHILE///////////////////////");
+        counter =5;
+        while(counter <=10){
+            System.out.printf("%d \n", counter);
+            counter ++;
+        }
+
+        System.out.println("For///////////////////////////");
+        for (counter = 1; counter <= 10; counter++){
+            System.out.printf("%d \n", counter);
+        }
+}//END: Interest
+
+
+
+        }
